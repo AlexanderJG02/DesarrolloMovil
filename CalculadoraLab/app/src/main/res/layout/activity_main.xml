@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextOperando1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Operando 1"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextOperando2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Operando 2"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="16dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerOperaciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular"/>
+
+    <TextView
+        android:id="@+id/textViewResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado: "
+        android:textSize="18sp"
+        android:gravity="center"/>
+</LinearLayout>

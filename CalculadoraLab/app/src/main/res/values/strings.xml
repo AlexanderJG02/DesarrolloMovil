@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CalculadoraBasica</string>
+    <string-array name="operaciones_array">
+        <item>Suma</item>
+        <item>Resta</item>
+        <item>Multiplicación</item>
+        <item>División</item>
+    </string-array>
+</resources>

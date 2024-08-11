@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <!-- Campo para el nombre del estudiante -->
+    <EditText
+        android:id="@+id/editTextNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del estudiante"
+        android:inputType="text"
+        android:padding="12dp"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <!-- Campos para las notas -->
+    <EditText
+        android:id="@+id/editTextNota1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nota 1"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/editTextNota2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nota 2"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/editTextNota3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nota 3"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/editTextNota4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nota 4"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/editTextNota5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nota 5"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Botón para calcular el promedio -->
+    <Button
+        android:id="@+id/buttonCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular Promedio"
+        android:background="@android:color/holo_blue_light"
+        android:textColor="@android:color/white"
+        android:padding="12dp"
+        android:layout_marginBottom="24dp"/>
+
+</LinearLayout>
